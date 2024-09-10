@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+	  
+    <!-- Bootstrap -->
+	  
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet" type="text/css">
+	  
+	     <!-- fuentes -->
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+	  
+	  <!-- favicon -->
+	  
+	   <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
+	  
+  </head>
+  <body>
+  	
+<!-- menú --> 
+	  
+ <nav class="navbar navbar-expand-lg navbar-dark display-flex">
+  <a class="navbar-brand" href="index.html">
+    <img src="imagenes/logo star guardian.png" width="190" height="120" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse justify-content-lg-center" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="StarGuardian_biografias.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Biografías
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="StarGuardian_Ahri.html"> Ahri </a>
+          <a class="dropdown-item" href="StarGuardian_Jinx.html"> Jinx </a>
+          <a class="dropdown-item" href="StarGuardian_Ekko.html"> Ekko </a>
+          <a class="dropdown-item" href="StarGuardian_Akali.html"> Akali </a>
+          <a class="dropdown-item" href="StarGuardian_Seraphine.html"> Seraphine </a>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="StarGuardian_galería.html">Anuario</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+	    <!-- video -->
+	  
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12 col-md-2">
+		
+      <!-- Primera carta -->
+      <div class="card mb-4">
+        <img class="card-img-top" src="imagenes/akalicarta.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title1">Akali</h5>
+          <p class="card-text1">''Las Guardianas Estelares brillan con intensidad y luego se consumen. ¿A nadie le preocupa?''</p>
+          <a href="StarGuardian_Akali.html" class="btn btn-1">Leer más</a>
+        </div>
+      </div>
+		
+      <!-- Segunda carta -->
+      <div class="card mb-4">
+        <img class="card-img-top" src="imagenes/akaliykaisacarta.jpg" alt="Card image cap">
+        <div class="card-body">
+<p class="card-text2">''¡Podemos hacerlo, siempre y cuando estemos unidas! No te decepcionaré.''</p>
+        </div>
+      </div>
+    </div>
+
+   <!-- Segunda columna - Video en el centro (más grande) -->
+<div class="col-12 col-md-8">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eEFVxI9lqjU" allowfullscreen></iframe>
+  </div>
+</div>
+
+    <!-- Tercera columna - Dos cartas en el lado derecho -->
+	  
+    <div class="col-12 col-md-2">
+      <!-- Tercera carta -->
+      <div class="card mb-4">
+        <img class="card-img-top" src="imagenes/rakanyxayahcarta.jpg" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text3">“Cada mañana cuando despierto, tú eres la razón por la que sonrío; tú eres la razón por la que amo”.</p>
+        </div>
+      </div>
+      <!-- Cuarta carta -->
+      <div class="card mb-4">
+        <img class="card-img-top" src="imagenes/ahrigaleria.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title2">Ahri&nbsp;</h5>
+          <p class="card-text4">''Es hora de decidir nuestros propios destinos, la luz llama y yo responderé''</p>
+          <a href="StarGuardian_Ahri.html" class="btn btn-1">Leer más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	  
+	  
+	<!-- Contenedor para el reproductor de una canción de Spotify -->
+<div class="container-fluid mt-4 custom-container">
+  <div class="row">
+    <div class="col-12">
+      <iframe src="https://open.spotify.com/embed/track/0VNqKLUyplTxCPZbIaVKls" width="100%" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+  </div>
+</div>
+
+	  
+	  
+	  <!-- Carrusel -->
+
+	  <div class="container-fluid mt-4 custom-container">
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+            <li data-target="#carouselExample" data-slide-to="2"></li>
+            <li data-target="#carouselExample" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/chicascarrusel.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/ezrealcarrusel.jpg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/todoscarrusel.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/chicascarrusel2.jpg" class="d-block w-100" alt="Imagen 4">
+            </div>
+          </div>
+			
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+          </a>
+        </div>
+      </div>
+    </div> </div>
+  
+	  
+	   <!-- Banner con botón -->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12">
+      <div class="banner-container">
+        <img src="imagenes/banner.jpg" alt="Banner" class="banner-img">
+        <a href="https://youtu.be/XLubl1-fKTk?si=moGRUf0fX34QysMq" class="banner-btn">Ver trailer oficial del evento  </a>
+      </div>
+    </div>
+  </div>
+</div>
+	  
+	  
+	  <!-- botón largo -->
+<div class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-12">
+      <a href="https://www.leagueoflegends.com/es-es/?utm_medium=card1%2Bwww.leagueoflegends.com&utm_source=riotbar" class="full-width-btn">Juega gratis aquí </a>
+    </div>
+  </div>
+</div>
+		  
+	  
+	  <!-- Footer -->
+<footer class="container mt-4">
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="footer-text">Copyright &copy; 2024 &middot; All Rights Reserved &middot; <a href="index.html">Star Guardian</a></p>
+    </div>
+  </div>
+</footer>
+	  
+	  
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
